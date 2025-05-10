@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Galería de Fotos</title>
+    <style>
+        body { font-family: Arial; text-align: center; }
+        .gallery { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; }
+        .gallery img { width: 200px; height: 200px; object-fit: cover; border: 2px solid #ddd; }
+        .download-btn { 
+            display: block; margin-top: 5px; background: #4CAF50; 
+            color: white; padding: 5px 10px; text-decoration: none; 
+        }
+    </style>
+</head>
+<body>
+    <h1>Mis Fotos</h1>
+    <div class="gallery">
+        <!-- Ejemplo de imagen con botón de descarga -->
+        <div>
+            <img src="foto1.jpg" alt="Foto 1">
+            <a href="foto1.jpg" download class="download-btn">Descargar</a>
+        </div>
+        <!-- Añade más fotos así -->
+    </div>
+</body>
+</html>
